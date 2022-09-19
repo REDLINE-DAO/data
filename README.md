@@ -1,6 +1,6 @@
 # Redline data
 
-Contains data for [Redline game](redline.game). The data here is published to https://shramee.github.io/redline-data/ and use for each race.
+Contains data for [Redline game](redline.game). The data here is published to https://redline-dao.github.io/data/ and use for each race.
 
 ## Tracks
 ### Directory [tracks](tracks)
