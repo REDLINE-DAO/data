@@ -3,6 +3,7 @@
 Contains data for [Redline game](redline.game). The data here is published to https://redline-dao.github.io/data/ and use for each race.
 
 ## Tracks
+
 ### Directory [tracks](tracks)
 
 Contains the tracks data,
@@ -21,6 +22,7 @@ Contains the tracks data,
 ### How to
 
 #### Add a new track
+
 1. Add track row in `tracks/tracks.csv`. Let's say we add this track,
    ```
    bora-bora,Bora Bora island,2349_poi,French Polynesia,16°30′04″S 151°44′24″W,151,100,https://example.com
@@ -31,8 +33,26 @@ Contains the tracks data,
    - `bora-bora.csv`
   
 #### Edit an existing track metadata
+
 Just edit track info in `tracks.csv`.
 :warning: Avoid changing the ID of the track. If you really have to, make sure to accompanying `{TrackId}.csv`
 
 #### Edit track cells
+
 Edit `{TrackId}.csv` file.
+
+## NPC bots
+
+### Directory [npc](npc)
+
+* [`bots.csv`](npc/bots.csv) - One bot NFT address per line
+
+### How to
+
+* [`prizes.csv`](prizes/prizes.csv) - 
+  -	raceType
+  -	experience
+  -	rewardDAI
+  -	tickets
+  -	nftPartSkin - can be comma separated for a pool
+Uses 1st row if race type match is not found.
