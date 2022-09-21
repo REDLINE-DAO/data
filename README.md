@@ -47,7 +47,7 @@ Edit `{TrackId}.csv` file.
 
 * [`bots.csv`](npc/bots.csv) - One bot NFT address per line
 
-### How to
+## Prizes
 
 * [`prizes.csv`](prizes/prizes.csv) - 
   -	raceType
@@ -55,4 +55,5 @@ Edit `{TrackId}.csv` file.
   -	rewardDAI
   -	tickets
   -	nftPartSkin - can be comma separated for a pool
+
 Uses 1st row if race type match is not found.
