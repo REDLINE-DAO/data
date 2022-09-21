@@ -6,7 +6,7 @@ Contains data for [Redline game](redline.game). The data here is published to ht
 ### Directory [tracks](tracks)
 
 Contains the tracks data,
-* [`tracks.csv`](tracks/track.csv) - CSV containing all tracks metadata.
+* [`tracks.csv`](tracks/tracks.csv) - CSV containing all tracks metadata.
   - Track Id
   - Name
   - Location Key - Accuweather location key
