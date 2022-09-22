@@ -56,4 +56,10 @@ Edit `{TrackId}.csv` file.
   -	tickets
   -	nftPartSkin - can be comma separated *enclosed in quotes*
 
+### Last cell should contain all possible NFT (Template) IDs one woll be picked at random.
+
+The table should look like this,
+
+![image](https://user-images.githubusercontent.com/11048263/191677512-a31eafe5-818c-4b26-8b1e-7555cc68b66c.png)
+
 Uses 1st row if race type match is not found.
