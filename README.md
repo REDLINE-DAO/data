@@ -49,7 +49,7 @@ Edit `{TrackId}.csv` file.
   -	raceType
   -	bots - can be comma separated *enclosed in quotes*
 
-### Last cell should contain all possible NFT (Template) IDs one woll be picked at random.
+### Last cell should contain bots NFT IDs one will be picked at random.
 
 The table should look like this,
 
@@ -66,7 +66,7 @@ The table should look like this,
   -	tickets
   -	nftPartSkin - can be comma separated *enclosed in quotes*
 
-### Last cell should contain all possible NFT (Template) IDs one woll be picked at random.
+### Last cell should contain all possible NFT (Template) IDs one will be picked at random.
 
 The table should look like this,
 
