@@ -8,14 +8,14 @@ Contains data for [Redline game](redline.game). The data here is published to ht
 
 Contains the tracks data,
 * [`tracks.csv`](tracks/tracks.csv) - CSV containing all tracks metadata.
-  - Track Id
-  - Name
-  - Location Key - Accuweather location key
-  - Country
-  - Coords
-  - Cell Count
-  - Cell Length
-  - Sponsor URL
+  - trackId
+  - name
+  - locationKey - Accuweather location key
+  - country
+  - coords
+  - cellCount
+  - cellLength
+  - sponsorURL
 * `{TrackId}.csv` - `{TrackId}` is the ID of the track.
   - Contains cell info for the track
 
@@ -71,6 +71,8 @@ The table should look like this,
 Uses 1st row if race type match is not found.
 
 ## Guidelines
+
+:warning: Editing the headers can break the code.
 
 After editing CSV files, preview them on GitHub.
 
