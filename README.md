@@ -62,6 +62,7 @@ The table should look like this,
 * [`prizes.csv`](prizes/prizes.csv) - 
   -	raceType
   -	experience
+  - participationXP
   -	rewardDAI
   -	tickets
   -	nftPartSkin - can be comma separated *enclosed in quotes*
