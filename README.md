@@ -46,8 +46,18 @@ Edit `{TrackId}.csv` file.
 ### Directory [npc](npc)
 
 * [`bots.csv`](npc/bots.csv) - One bot NFT address per line
+  -	raceType
+  -	bots - can be comma separated *enclosed in quotes*
+
+### Last cell should contain all possible NFT (Template) IDs one woll be picked at random.
+
+The table should look like this,
+
+![image](https://user-images.githubusercontent.com/11048263/191680346-d579922b-ca8b-4f0b-a1ca-703ab2aaf4f6.png)
 
 ## Prizes
+
+### Directory [prizes](prizes)
 
 * [`prizes.csv`](prizes/prizes.csv) - 
   -	raceType
@@ -60,6 +70,16 @@ Edit `{TrackId}.csv` file.
 
 The table should look like this,
 
-![image](https://user-images.githubusercontent.com/11048263/191677512-a31eafe5-818c-4b26-8b1e-7555cc68b66c.png)
+![image](https://user-images.githubusercontent.com/11048263/191680491-f89668f5-9767-4b32-9233-f8870fb33f97.png)
 
 Uses 1st row if race type match is not found.
+
+## Guidelines
+
+After editing CSV files, preview them on GitHub.
+
+Make sure the structure looks legit and there are no errors.
+
+For example,
+Errors like this shows up when comma separated values need to be wrapped in quotes.
+![image](https://user-images.githubusercontent.com/11048263/191680169-746add31-1df9-46bc-9f7b-6dd30c7266b2.png)
