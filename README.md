@@ -68,10 +68,6 @@ The table should look like this,
 
 ### Last cell should contain all possible NFT (Template) IDs one will be picked at random.
 
-The table should look like this,
-
-![image](https://user-images.githubusercontent.com/11048263/191680491-f89668f5-9767-4b32-9233-f8870fb33f97.png)
-
 Uses 1st row if race type match is not found.
 
 ## Guidelines
