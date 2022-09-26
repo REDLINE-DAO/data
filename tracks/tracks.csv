@@ -1,2 +1,2 @@
-trackId,name,locationKey,country,coords,cellCount,cellLength,sponsorURL
-bora-bora,Bora Bora island,2349_poi,French Polynesia,16°30′04″S 151°44′24″W,151,100,https://example.com
+trackId,name,locationKey,country_code,coords,cellCount,cellLength,sponsorURL
+bora-bora,Bora Bora island,2349_poi,pf,16°30′04″S 151°44′24″W,151,100,https://example.com
