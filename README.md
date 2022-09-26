@@ -11,7 +11,7 @@ Contains the tracks data,
   - trackId
   - name
   - locationKey - Accuweather location key
-  - country
+  - country_code - 2 lettter ISO 3166 country code
   - coords
   - cellCount
   - cellLength
