@@ -1,17 +1,17 @@
 # Redline data
 
-Contains data for [Redline game](redline.game). The data here is published to https://redline-dao.github.io/data/ and use for each race.
+Contains game data for [Redline](redline.game). The data here is published at https://redline-dao.github.io/data/ and use for each race.
 
 ## Tracks
 
 ### Directory [tracks](tracks)
 
-Contains the tracks data,
+Contains track data,
 * [`tracks.csv`](tracks/tracks.csv) - CSV containing all tracks metadata.
   - trackId
   - name
   - locationKey - Accuweather location key
-  - country_code - 2 lettter ISO 3166 country code
+  - country_code - 2-letter ISO 3166 country code
   - coords
   - cellCount
   - cellLength
@@ -62,7 +62,7 @@ The table should look like this,
 * [`prizes.csv`](prizes/prizes.csv) - 
   -	raceType
   -	experience
-  - ~~participationXP~~ Not in use at the moment
+  - participationXP
   -	eth
   -	tickets
   -	nftPartSkin - can be comma separated *enclosed in quotes*
@@ -80,5 +80,5 @@ After editing CSV files, preview them on GitHub.
 Make sure the structure looks legit and there are no errors.
 
 For example,
-Errors like this shows up when comma separated values need to be wrapped in quotes.
+Errors like this show up when comma-separated values need to be wrapped in quotes.
 ![image](https://user-images.githubusercontent.com/11048263/191680169-746add31-1df9-46bc-9f7b-6dd30c7266b2.png)
